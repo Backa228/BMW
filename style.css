@@ -1,0 +1,159 @@
+body
+{
+	background-color: grey;
+	font-family: 'Chivo Mono', monospace;
+	font-family: 'Lilita One', cursive;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 30px;
+}
+
+#logo
+{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+
+.container
+{
+	position: relative;
+	background-color: #DEDEDE;
+	border-radius: 5px;
+}
+
+ul
+{
+
+}
+
+.S
+{
+	position: absolute;
+	/*float: right;*/
+	padding: 0px;
+	margin-top: 15px;
+	width: 500px;
+	bottom: -4px;
+	left: 95px;
+}
+
+.S li
+{
+	display: inline-block;
+	list-style: none;
+	color: grey;
+}
+
+.S li:visited
+{
+	color: grey;
+}
+
+.S a 
+{
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.S a:visited
+{
+	color: grey;
+}
+
+.icons img
+{
+	width: 23px;
+	height: 23px;
+	padding: 0 3px;
+}
+
+.icons
+{
+	position: absolute;
+	bottom: 20px;
+	left: 87%;
+}
+
+.container1
+{
+	position: absolute;
+	right: 19%;
+	top: 13px;
+
+}
+
+input
+{
+	height: 23px;
+}
+
+.SE
+{
+	width: 18px;
+	height: 18px;
+}
+
+i
+{
+	padding: 0 3px;
+	font-size: 25px;
+	color: #4D4D4D;
+}
+
+.left img
+{
+	/*background-image: url("картинки/BMW M4 CSL.jpg");*/
+	width: 750px;
+	border-radius: 10px;
+	/*height: 50%;*/
+
+}
+
+.left
+{
+	padding: 10px;
+	text-align: center;
+}
+
+.right img
+{
+	/*background-image: url("картинки/BMW M8 GRAND CUPE.jpg");*/
+	width: 750px;
+	border-radius: 10px;
+	/*height: 50%;*/
+}
+
+.right
+{
+	padding: 10px;
+	text-align: center;
+}
+
+.left a, .right a
+{
+	text-decoration: none;
+}
+
+.left a, .right a:visited
+{
+	color: black;
+}
+
+.car
+{
+	display: flex;
+	background-color: #A4A4A4;
+	height: 500px;
+	margin-top: 10px;/*зовнишний видступ*/
+	border-radius: 10px;
+}
+
+h1 
+{
+	text-align: center;
+	color: orange;
+}
